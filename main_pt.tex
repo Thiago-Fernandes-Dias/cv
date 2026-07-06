@@ -1,0 +1,39 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage[utf8]{inputenc}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{1ex}{1ex}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+\pagestyle{empty}
+
+% Cabeçalho
+\begin{center}
+    {\Huge \textbf{Thiago Fernandes Dias}} \\[0.5em] % [cite: 15]
+    Rio Grande da Serra, SP, Brasil $\cdot$ (11) 985213496 $\cdot$ thiago.fernandesdias235@gmail.com % [cite: 2]
+
+    \href{https://www.linkedin.com/in/thiago-fernandes-dias-5b90a118a}{LinkedIn} $\cdot$ % [cite: 3, 4]
+    \href{https://github.com/Thiago-Fernandes-Dias}{GitHub} % [cite: 5]
+\end{center}
+
+\vspace{0.5cm}
+
+\section*{Resumo Profissional}
+\input{pt/resumo.tex}
+
+\section*{Habilidades Técnicas}
+\input{pt/habilidades.tex}
+
+\section*{Experiência Profissional}
+\input{pt/experiencia.tex}
+
+\section*{Formação Acadêmica}
+\textbf{Universidade Federal do ABC (UFABC)} \hfill Julho 2021 -- Setembro 2025 \\ % [cite: 81, 82]
+Bacharelado em Ciência da Computação % [cite: 82]
+
+\end{document}
